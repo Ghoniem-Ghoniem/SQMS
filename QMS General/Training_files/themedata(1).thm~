@@ -1,0 +1,78 @@
+24%" class="OperationTableRow">01- Define collection representitives</TD>
+			<TD WIDTH="8%" class="OperationTableRow">Functional</TD>
+			<TD WIDTH="8%" class="OperationTableRow">Proposed</TD>
+			<TD WIDTH="8%" class="OperationTableRow">Medium</TD>
+			<TD WIDTH="8%" class="OperationTableRow">Medium</TD>
+			<TD WIDTH="52%" class="OperationTableRow">As a financial manager<br>in order to track the performnce and calculate the commesions for my collective reps,<br>system should provide facility to define the collection reps.</TD>
+		</TR>
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Constraints">07- Collection representitives</a> Constraint
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Constraint</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Status</TD>
+						<TD WIDTH="60%" class="OperationTableHeading">Detail</TD>
+					</TR>
+									<TR>
+					<TD WIDTH="24%" class="OperationTableRow">01- Rep Created</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Post-condition</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Approved</TD>
+					<TD WIDTH="60%" class="OperationTableRow"></TD>
+				</TR>
+					<TR>
+					<TD WIDTH="24%" class="OperationTableRow">02- Access control</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Post-condition</TD>
+					<TD WIDTH="8%" class="OperationTableRow">Approved</TD>
+					<TD WIDTH="60%" class="OperationTableRow">for transacrional only and for the relevant branches.</TD>
+				</TR>
+	
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table>  <table cellPadding=0 cellSpacing=0 width="100%">
+  <tbody>
+		<tr>
+			<td class="ObjectSubTitle">
+				<a Name="Scenarios">07- Collection representitives</a> Scenarios
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<TABLE align="center" BORDER=1 CELLSPACING=0 CELLPADDING=1 bordercolor="white" class="OperationTable">
+					<TR>
+						<TD WIDTH="24%" class="OperationTableHeading">Scenario</TD>
+						<TD WIDTH="8%" class="OperationTableHeading">Type</TD>
+						<TD WIDTH="68%" class="OperationTableHeading">Detail</TD>						
+					</TR>
+					<TR>
+				<TD WIDTH="24%" class="OperationTableRow">Main Scenario</TD>
+				<TD WIDTH="8%" class="OperationTableRow">Basic Path</TD>
+				<TD WIDTH="68%" class="OperationTableRow">01- User press new TXN<br>02- system ge the new TXN code using the maximum incremented by one with facility to change.<br>03-user press save.<br>04- User defines the related branches that the Rep can deal with.<br>06- system check the entered data according to the BVR, and if violated, notify user and prevent saving.<br>07- Save the record.</TD>
+			</TR>
+				</TABLE>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><TABLE class="FooterTable" 

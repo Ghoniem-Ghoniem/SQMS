@@ -1,0 +1,419 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1256">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../Audit_CheckLists.htm">
+<link rel=File-List href=filelist.xml>
+<title>Audit CheckLists</title>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../Audit_CheckLists.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link=blue vlink=purple>
+
+<table border=0 cellpadding=0 cellspacing=0 width=985 style='border-collapse:
+ collapse;table-layout:fixed;width:739pt'>
+ <col width=64 style='width:48pt'>
+ <col class=xl65 width=285 style='mso-width-source:userset;mso-width-alt:10422;
+ width:214pt'>
+ <col class=xl66 width=508 style='mso-width-source:userset;mso-width-alt:18578;
+ width:381pt'>
+ <col width=64 span=2 style='width:48pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl67 width=64 style='height:15.0pt;width:48pt'>S#</td>
+  <td class=xl67 width=285 style='width:214pt'>Audit Area</td>
+  <td class=xl67 width=508 style='width:381pt'>CheckList Item</td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td height=80 class=xl68 align=right style='height:60.0pt'>1</td>
+  <td rowspan=2 class=xl74 width=285 style='border-bottom:.5pt solid black;
+  width:214pt'>Member functions and Variables</td>
+  <td class=xl69 width=508 style='width:381pt'>Each member function should have
+  the following:<br>
+    • Generator comments above the signature<br>
+    • Objective Comments above the signature<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>2</td>
+  <td class=xl70 width=508 style='width:381pt'>Each member variable should have
+  an objective.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>3</td>
+  <td rowspan=5 class=xl77 width=285 style='border-bottom:.5pt solid black;
+  border-top:none;width:214pt'>Comments</td>
+  <td class=xl70 width=508 style='width:381pt'>Write comments on top of all
+  methods to describe<br>
+    <span style='mso-spacerun:yes'> </span>their usage and expected input types
+  and return type information.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td height=80 class=xl68 align=right style='height:60.0pt'>4</td>
+  <td class=xl70 width=508 style='width:381pt'>Complex algorithms should be
+  :<br>
+    • Heading commented <br>
+    • Thoroughly commented.<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 align=right style='height:45.0pt'>5</td>
+  <td class=xl70 width=508 style='width:381pt'>Code that has been optimized or
+  modified to &quot;work around&quot; an issue<br>
+    <span style='mso-spacerun:yes'> </span>should be thoroughly commented, so
+  as to avoid confusion and re-introduction of bugs.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 align=right style='height:45.0pt'>6</td>
+  <td class=xl70 width=508 style='width:381pt'>Code that has been
+  &quot;commented out&quot; should be explained or removed.<br>
+    <br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>7</td>
+  <td class=xl70 width=508 style='width:381pt'>Code that needs to be reworked
+  should have a TODO comment<br>
+    <span style='mso-spacerun:yes'> </span>and a clear explanation of what
+  needs to be done.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=100 style='height:75.0pt'>
+  <td height=100 class=xl68 align=right style='height:75.0pt'>8</td>
+  <td rowspan=9 class=xl77 width=285 style='border-bottom:.5pt solid black;
+  border-top:none;width:214pt'>Definitions</td>
+  <td class=xl70 width=508 style='width:381pt'>Variable name should represent
+  its main attribute in the model, so Avoid using short variable names<br>
+    Cn -&gt;Connection<br>
+    Str-&gt;SQLQueryString<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>9</td>
+  <td class=xl70 width=508 style='width:381pt'>Avoid uncalled members and
+  classes.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>10</td>
+  <td class=xl70 width=508 style='width:381pt'>Delete unreached codes</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>11</td>
+  <td class=xl70 width=508 style='width:381pt'>Do not initialize variable
+  without need for validation on its value before generating the real object.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=63 style='height:47.25pt'>
+  <td height=63 class=xl68 align=right style='height:47.25pt'>12</td>
+  <td class=xl71 width=508 style='width:381pt'>Use <font class="font9">access
+  specifiers</font><font class="font8"> (</font><font class="font10">private,
+  public, protected, internal, and protected internal</font><font class="font8">)<br>
+    <span style='mso-spacerun:yes'> </span>as per the scope need of a method, a
+  class, or a variable.</font></td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>13</td>
+  <td class=xl70 width=508 style='width:381pt'>Use enumerations for groups of
+  related constants that have integer values.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=140 style='height:105.0pt'>
+  <td height=140 class=xl68 align=right style='height:105.0pt'>14</td>
+  <td class=xl70 width=508 style='width:381pt'>Use “var” keyword while defining
+  variable to keep less code, less noisy, more clean, and keep solution
+  maintainable when changing is required.<br>
+    Example:<br>
+    //ConfirmedOrders clsConfirmedOrder = new ConfirmedOrders();<br>
+    <br>
+    <span style='mso-spacerun:yes'>   </span>var clsConfirmedOrder = new
+  ConfirmedOrders();<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 style='height:30.0pt'>&nbsp;</td>
+  <td class=xl70 width=508 style='width:381pt'>Do not use var in case of
+  Getting variable from another reference:<br>
+    ConfirmedOrders clsConfirmedOrder = obj.GetModel().GetConfirmedOrders();</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 align=right style='height:45.0pt'>15</td>
+  <td class=xl70 width=508 style='width:381pt'>Prevent using of hard-coded
+  values that will be subject for changes.<br>
+    Separate them in managed resources, like DB and configuration files.<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 align=right style='height:45.0pt'>16</td>
+  <td rowspan=6 class=xl77 width=285 style='border-bottom:.5pt solid black;
+  border-top:none;width:214pt'>Signatures</td>
+  <td class=xl70 width=508 style='width:381pt'>Don't pass any Boolean flag to a
+  function in order to direct the business (SRP) in the same function. Instead
+  use two different functions for the negative and positive states</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>17</td>
+  <td class=xl70 width=508 style='width:381pt'>Maximum number of arguments to a
+  function should be less than or equal 4</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>18</td>
+  <td class=xl70 width=508 style='width:381pt'>Functions should start with a
+  verb.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 style='height:30.0pt'>&nbsp;</td>
+  <td class=xl70 width=508 style='width:381pt'>Class diagram should represent
+  the business for variables and operations, so matching between methods names
+  and business requirements should be met.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=160 style='height:120.0pt'>
+  <td height=160 class=xl68 style='height:120.0pt'>&nbsp;</td>
+  <td class=xl70 width=508 style='width:381pt'>Function parameters should be
+  limited to what will be used in the function scope<br>
+    <span style='mso-spacerun:yes'> </span>protected void SetViewMode(bool
+  bCancelEditing, int nNewID)<br>
+    <span style='mso-spacerun:yes'>        </span>{ <br>
+    <span style='mso-spacerun:yes'>            </span>IsUpDownPressed =
+  0;<br>
+    <span style='mso-spacerun:yes'>            </span>CancelEditNode =
+  bCancelEditing;<br>
+    <span style='mso-spacerun:yes'>        </span>}<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>19</td>
+  <td class=xl70 width=508 style='width:381pt'>Use descriptive names for
+  functions and variables according to its objective</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=280 style='height:210.0pt'>
+  <td height=280 class=xl68 align=right style='height:210.0pt'>20</td>
+  <td rowspan=5 class=xl77 width=285 style='border-bottom:.5pt solid black;
+  border-top:none;width:214pt'>References</td>
+  <td class=xl70 width=508 style='width:381pt'>Do not drill down in a reference
+  many times, get the value and leave the reference. <br>
+    //Do not do the following<br>
+    //If (txt.Text == &quot;1&quot;) …Do Something<br>
+    //else if (txt.Text == &quot;2&quot;) …Do Something<br>
+    //else If (txt.Text == &quot;3&quot;) …Do Something<br>
+    //else If (txt.Text == &quot;4&quot;) …Do Something<br>
+    <br>
+    //Do the following<br>
+    string strVal =txt.Text; <br>
+    If (strVal == &quot;1&quot;) …Do Something<br>
+    else if (strVal == &quot;2&quot;) …Do Something<br>
+    else If (strVal == &quot;3&quot;) …Do Something<br>
+    else If (strVal == &quot;4&quot;) …Do Something</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td height=120 class=xl68 align=right style='height:90.0pt'>21</td>
+  <td class=xl70 width=508 style='width:381pt'>If function signature contains
+  the similar object attributes, Passing objects instead of separate attributes
+  if the attributes represent an object:<br>
+    CreatEmp (Employee emp)<br>
+    Not<br>
+    CreateEmp (id,name,salary)<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=140 style='height:105.0pt'>
+  <td height=140 class=xl68 align=right style='height:105.0pt'>22</td>
+  <td class=xl70 width=508 style='width:381pt'>Reusable components, events that
+  are subject for changes in parameters<span style='mso-spacerun:yes'> 
+  </span>should pass its parameters throw structure/class in order to decrease
+  coupling and increase maintainability<br>
+    <br>
+    pEmbCls-&gt;CreatEmp (Employee emp)<br>
+    Not<br>
+    pEmbCls-&gt;CreateEmp (id,name,salary)</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 style='height:30.0pt'>&nbsp;</td>
+  <td class=xl70 width=508 style='width:381pt'>do not inject views with
+  unrferenced JavaScript Code, Separate all Client Side codes into separate
+  files</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl68 align=right style='height:15.75pt'>23</td>
+  <td class=xl70 width=508 style='width:381pt'>Remove un-used imports,<span
+  style='mso-spacerun:yes'>  </span>unused namespaces, classes, variables</td>
+  <td class=xl72></td>
+  <td class=xl72></td>
+ </tr>
+ <tr height=260 style='height:195.0pt'>
+  <td height=260 class=xl68 align=right style='height:195.0pt'>24</td>
+  <td class=xl73 width=285 style='width:214pt'>Naming Convension</td>
+  <td class=xl70 width=508 style='width:381pt'>Use Camel Case : Eliminate poor
+  naming convention: Naming for the variable, member function and class should
+  represent the business need using CamelCase standard notation.<br>
+    For variable : start with the first identifier of the variable type.<br>
+    i : Integer<br>
+    d : Decimal<br>
+    f : Float<br>
+    dt :Date<br>
+    struct : Structure<br>
+    btn: Button<br>
+    txt: TextBox<br>
+    cmb: ComboBox<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>25</td>
+  <td class=xl73 width=285 style='width:214pt'>Spelling checker</td>
+  <td class=xl70 width=508 style='width:381pt'>Be sure that you don't make any
+  spelling mistake (to be able to search easily)</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>26</td>
+  <td rowspan=3 class=xl74 width=285 style='border-bottom:.5pt solid black;
+  border-top:none;width:214pt'>Localization</td>
+  <td class=xl70 width=508 style='width:381pt'>Localization: Put all strings in
+  application resources file.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>27</td>
+  <td class=xl70 width=508 style='width:381pt'>Resource management: All
+  resources, images, icons strings, localization info should be separated in
+  different and unified resource file.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>28</td>
+  <td class=xl70 width=508 style='width:381pt'>Never duplicate the behavior
+  according to the language.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=240 style='height:180.0pt'>
+  <td height=240 class=xl68 align=right style='height:180.0pt'>29</td>
+  <td class=xl73 width=285 style='width:214pt'>Bloating</td>
+  <td class=xl70 width=508 style='width:381pt'>Avoid bloated code like:<br>
+    Code bloat is the production of code that is perceived as unnecessarily
+  long, slow, or otherwise wasteful of resources.<br>
+    Something ST = new Something();<br>
+    ST.setField1(value1);<br>
+    ST.setField2(value2);<br>
+    ST.setField3(value3);<br>
+    <br>
+    it should be :<br>
+    Something ST = new Something(value1, value2, value3);<br>
+    ST.DoSomething();<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>30</td>
+  <td class=xl73 width=285 style='width:214pt'>LOC</td>
+  <td class=xl70 width=508 style='width:381pt'>Function should not exceed 30
+  lines of codes.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td height=80 class=xl68 align=right style='height:60.0pt'>33</td>
+  <td rowspan=4 class=xl74 width=285 style='border-bottom:.5pt solid black;
+  border-top:none;width:214pt'>Logging</td>
+  <td class=xl70 width=508 style='width:381pt'>Log for the execution as follow:
+  <br>
+    Module, class, operation, start parameters, execution steps, success flag,
+  and exception description.<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>34</td>
+  <td class=xl70 width=508 style='width:381pt'>Logging should have suitable
+  retention period<br>
+    <span style='mso-spacerun:yes'> </span>in order to prevent function
+  tractability or increase of logging media</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>35</td>
+  <td class=xl70 width=508 style='width:381pt'>Logging should be found in all
+  building blocks<br>
+    <span style='mso-spacerun:yes'> </span>found in the deployment model.</td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <tr height=120 style='height:90.0pt'>
+  <td height=120 class=xl68 align=right style='height:90.0pt'>36</td>
+  <td class=xl70 width=508 style='width:381pt'>Write logs for all exceptions or
+  main functionality success events with all its parameters:<br>
+    - Date time<br>
+    - Inputs<br>
+    Outputs<br>
+    </td>
+  <td colspan=2 style='mso-ignore:colspan'></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=285 style='width:214pt'></td>
+  <td width=508 style='width:381pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,867 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1256">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link id=Main-File rel=Main-File href="../Audit_CheckLists.htm">
+<link rel=File-List href=filelist.xml>
+<title>Audit CheckLists</title>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:.75in .7in .75in .7in;
+	mso-header-margin:.3in;
+	mso-footer-margin:.3in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(1);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../Audit_CheckLists.htm");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+</head>
+
+<body link=blue vlink=purple>
+
+<table border=0 cellpadding=0 cellspacing=0 width=1239 style='border-collapse:
+ collapse;table-layout:fixed;width:930pt'>
+ <col width=64 style='width:48pt'>
+ <col width=189 style='mso-width-source:userset;mso-width-alt:6912;width:142pt'>
+ <col width=986 style='mso-width-source:userset;mso-width-alt:36059;width:740pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl67 width=64 style='height:15.0pt;width:48pt'>S#</td>
+  <td class=xl67 width=189 style='width:142pt'>Audit Area</td>
+  <td class=xl67 width=986 style='width:740pt'>CheckList Item</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>1</td>
+  <td rowspan=4 class=xl84 style='border-bottom:.5pt solid black'>Deployment</td>
+  <td class=xl69 width=986 style='width:740pt'>Deploying over different nodes
+  to make load and performance balance</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>2</td>
+  <td class=xl70 width=986 style='width:740pt'>Enable HTTP copression in order
+  to compress the data for request and response</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl70 width=986 style='width:740pt'>Use load balancers to distribute
+  the requests between nodes</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>3</td>
+  <td class=xl70 width=986 style='width:740pt'>Ditribute components over
+  deployment environment to balance the solution load<span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>4</td>
+  <td rowspan=10 class=xl86 style='border-bottom:.5pt solid black;border-top:
+  none'>Client Side</td>
+  <td class=xl79>store data on the client for related objects</td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>5</td>
+  <td class=xl70 width=986 style='width:740pt'>Never consume the trafic in
+  refereshing the content without need, Use keys and its expiry, <br>
+    like refereshing the bug status report without any adding or updating for
+  the issues</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>6</td>
+  <td class=xl70 width=986 style='width:740pt'>Put java script at the bottom,
+  and CSS at the top</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>7</td>
+  <td class=xl79>Synching contnent should be limited for specific model and
+  specific attributes [Do not retrieve or send non required data]</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>8</td>
+  <td class=xl79>Use Client Side Validation to prevent consuming the
+  connections</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>9</td>
+  <td class=xl79>Using cookies for caching content</td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>10</td>
+  <td class=xl70 width=986 style='width:740pt'>Use the output cache directives
+  as possible as you can, specially in static content:<br>
+    &lt;%@ OutputCache Duration=&quot;3600&quot; VaryByParam=&quot;none&quot;
+  %&gt;<span style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 style='height:45.0pt'>&nbsp;</td>
+  <td class=xl81 width=986 style='width:740pt'><span style='font-variant-ligatures: normal;
+  font-variant-caps: normal;orphans: 2;widows: 2;-webkit-text-stroke-width: 0px;
+  text-decoration-style: initial;text-decoration-color: initial'>Use the output
+  cache for actions according to business needs, for variables, and
+  durations<br>
+    [<font class="font12">OutputCache(Duration=10,
+  VaryByParam=&quot;none&quot;)</font><font class="font11">] <br>
+    </font><font class="font13">public</font><font class="font11"> ActionResult
+  </font><font class="font12">Index</font><font class="font11">()</font></span></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>11</td>
+  <td class=xl79>Cache dynamic objects accrording to the contents update
+  expected trafic: Company,Branches,ClassG,Brands,UserInfo</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>12</td>
+  <td class=xl79>Cache static contents and objects using the configuration
+  files directives</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>13</td>
+  <td rowspan=29 class=xl86 style='border-bottom:.5pt solid black;border-top:
+  none'>Source code</td>
+  <td class=xl79>Define variable just before it’s needed</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>14</td>
+  <td class=xl79>Confirm using the Postback attribute to prevent loading the
+  page info each time</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>17</td>
+  <td class=xl79>Using for multiple threading</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>18</td>
+  <td class=xl79>Using programmable objects over the database engine
+  (View,Function,Procedure,trigger,...)</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>20</td>
+  <td class=xl79>Using primitive datatypes as mutch as possible</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>21</td>
+  <td class=xl79>Never run or build your application in debug mode, just use
+  debug mode when debugging.</td>
+ </tr>
+ <tr height=80 style='height:60.0pt'>
+  <td height=80 class=xl68 align=right style='height:60.0pt'>22</td>
+  <td class=xl70 width=986 style='width:740pt'>Every class, operation should
+  have only single responsibility (SRP).<br>
+    Example:<br>
+    Do not let your function open connection, Get Values, and Close connection,
+  each function should have one concreate responsibility.<br>
+    </td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>23</td>
+  <td class=xl79>No one can access the variables except throw access modifiers
+  or functions in order to control the call stack</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>24</td>
+  <td class=xl79>reduce the usage of complicated graphics as possible</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>25</td>
+  <td class=xl79>using switch cases instead of [if conditions] for complex
+  conditions</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>26</td>
+  <td class=xl79>Do not depend on connected model to get solution metadata</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl68 align=right style='height:15.75pt'>27</td>
+  <td class=xl79>Use a <font class="font14">Stringbuilder</font><font
+  class="font8"> instead of </font><font class="font14">string</font><font
+  class="font8"> concatenation if multiple concatenations are required, to save
+  </font><font class="font9">heap memory.</font></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>28</td>
+  <td class=xl79>Boxing &amp; Unboxing : Avoid type casting and type
+  conversions as much as possible; because it is a performance penalty.</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>29</td>
+  <td class=xl79>Switch Cases: If you have many items in branching code you
+  should definitely use a switch, not if else.</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>30</td>
+  <td class=xl79>Avoid nested for/foreach loops and nested if conditions as
+  much as possible.</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>31</td>
+  <td class=xl79>If-Else: When you use (If/Else) try to put the most likely
+  true conditions at the first, and then according to the probability.</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>32</td>
+  <td class=xl79>Never use .ToString with string objects</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>33</td>
+  <td class=xl79>Never use redundant qualifier, like This.MyText;<span
+  style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>34</td>
+  <td class=xl79>Never initialize the variable by its default value</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>35</td>
+  <td class=xl79>Removing unnecessary expections handling for imposible cases.</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>36</td>
+  <td class=xl79>objects serialization should be occurred throw pre-developed
+  parsers, not manually, Like JsonSerializer and XmlSerializer classes, and
+  AutoMapper library</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>37</td>
+  <td class=xl79>Reduce the usage of boxing and unboxing variables</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>38</td>
+  <td class=xl79>passing values by reference not by value</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>39</td>
+  <td class=xl79>Use of layered architecture to prevent coupling and increase
+  cohesion</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>40</td>
+  <td class=xl79>Define the variable before you use it directly to have
+  concrete blocks of code.</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>41</td>
+  <td class=xl79>Use try finaly sections to release resources even error or
+  exception occurred<span style='mso-spacerun:yes'> </span></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>42</td>
+  <td class=xl79>Bulk Operations should be handled by the server</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 align=right style='height:45.0pt'>44</td>
+  <td class=xl70 width=986 style='width:740pt'>Disposing of Unmanaged Resources
+  like File I/O, Network resources, etc. They have to be disposed of once their
+  usage is completed. Use usings block for unmanaged code, if you want to
+  automatically handle the disposing of objects once they are out of scope.<br>
+    It should be inherited from IDisposable Interface</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 align=right style='height:45.0pt'>45</td>
+  <td class=xl70 width=986 style='width:740pt'>Just invoke methods once
+  according to it's suitable events, for example, <br>
+    if you are executing functionality according to the change of value, <br>
+    do not put the implementation in the lost focus, but when the value changed
+  , so with lost focust you should check for value change</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>46</td>
+  <td rowspan=10 class=xl86 style='border-bottom:.5pt solid black;border-top:
+  none'>Connection</td>
+  <td class=xl79>Minimize http request for the same operation</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>47</td>
+  <td class=xl79>Provide information are limited only upon request</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>48</td>
+  <td class=xl79>Do not send data more than required</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>49</td>
+  <td class=xl79>Do not use chatty interface, means multiple rounds to perform
+  single operation</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>50</td>
+  <td class=xl79>Conduct client side validation as possible</td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>51</td>
+  <td class=xl70 width=986 style='width:740pt'>Define clear responsibility for
+  communication [will be clear in sequence diagram model],<br>
+    <span style='mso-spacerun:yes'> </span>so it will reduce boundaries
+  crossing and unmanaged communications between objetcs or nodes</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>52</td>
+  <td class=xl79>consider the public and private variables to prevent
+  additional overheads in objects serialization when parsing</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>53</td>
+  <td class=xl79>Cache every where considering expiration rules</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>54</td>
+  <td class=xl79>using JSON format instead of XML to prevent XML tags parsing</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>55</td>
+  <td class=xl79>minimize the amount of data to be transferred</td>
+ </tr>
+ <tr height=40 style='height:30.0pt'>
+  <td height=40 class=xl68 align=right style='height:30.0pt'>56</td>
+  <td rowspan=6 class=xl86 style='border-bottom:.5pt solid black;border-top:
+  none'>Server Side</td>
+  <td class=xl70 width=986 style='width:740pt'>caching for server objects
+  related to the whole solution, time based,sql table based, <br>
+    parameter based, and file based using dependencies</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>57</td>
+  <td class=xl82>Configure Etags technique on server for caching request and
+  responses</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>58</td>
+  <td class=xl79>Using database indexes</td>
+ </tr>
+ <tr height=140 style='height:105.0pt'>
+  <td height=140 class=xl68 align=right style='height:105.0pt'>59</td>
+  <td class=xl70 width=986 style='width:740pt'>In web.config : Set The page
+  compilation debug to false when deploying the page to prevent compiling the
+  page each request, You can check using the developer tools to check the
+  decrease in size<br>
+    &lt;system.web&gt;<br>
+    <span style='mso-spacerun:yes'>    </span>&lt;authentication
+  mode=&quot;None&quot; /&gt;<br>
+    <span style='mso-spacerun:yes'>    </span>&lt;compilation <font
+  class="font5">debug=&quot;false&quot;</font><font class="font0">
+  targetFramework=&quot;4.5&quot; /&gt;<br>
+    <span style='mso-spacerun:yes'>    </span>&lt;httpRuntime
+  targetFramework=&quot;4.5&quot; /&gt;<br>
+    <span style='mso-spacerun:yes'>    </span>&lt;pages&gt;</font></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>60</td>
+  <td class=xl79>Use native components in DAL if you do not connect to more
+  that one database type, SQLConnection, AdoDbConnection, OleDb</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>61</td>
+  <td class=xl79>consider the model of &quot;fire and forget&quot; to prevent
+  the waiting time: EDM, and TAP</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>62</td>
+  <td rowspan=4 class=xl86 style='border-bottom:.5pt solid black;border-top:
+  none'>Test automation</td>
+  <td class=xl79>Using automated tools to perform performance and load test</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>63</td>
+  <td class=xl79>Load testing occurred for the estimated number of users</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>64</td>
+  <td class=xl79>Testing occurred over expected volume [Size of data]</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>65</td>
+  <td class=xl79>Time for execution for each function is accepted over the
+  minimum requirements for deployment model</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>66</td>
+  <td rowspan=10 class=xl86 style='border-bottom:.5pt solid black;border-top:
+  none'>Database</td>
+  <td class=xl79>Use precompiled procedures to execute DML</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>67</td>
+  <td class=xl79>Retrieve only the required columns</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>68</td>
+  <td class=xl79>Retrieve data only upon request</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>69</td>
+  <td class=xl79>Use exists instead of count for checking the existance of
+  recrords</td>
+ </tr>
+ <tr height=546 style='height:409.5pt'>
+  <td height=546 class=xl68 style='height:409.5pt'>&nbsp;</td>
+  <td class=xl70 width=986 style='width:740pt'>Analyze the table according to
+  its size in order to take corrective action, using the following sql
+  statement:<br>
+    select * from (SELECT <br>
+    <span style='mso-spacerun:yes'>    </span>t.NAME AS TableName,<br>
+    <span style='mso-spacerun:yes'>    </span>s.Name AS SchemaName,<br>
+    <span style='mso-spacerun:yes'>    </span>p.rows AS RowCounts,<br>
+    <span style='mso-spacerun:yes'>    </span>SUM(a.total_pages) * 8 AS
+  TotalSpaceKB, <br>
+    <span style='mso-spacerun:yes'>    </span>CAST(ROUND(((SUM(a.total_pages) *
+  8) / 1024.00), 2) AS NUMERIC(36, 2)) AS TotalSpaceMB,<br>
+    <span style='mso-spacerun:yes'>    </span>SUM(a.used_pages) * 8 AS
+  UsedSpaceKB, <br>
+    <span style='mso-spacerun:yes'>    </span>CAST(ROUND(((SUM(a.used_pages) *
+  8) / 1024.00), 2) AS NUMERIC(36, 2)) AS UsedSpaceMB, <br>
+    <span style='mso-spacerun:yes'>    </span>(SUM(a.total_pages) -
+  SUM(a.used_pages)) * 8 AS UnusedSpaceKB,<br>
+    <span style='mso-spacerun:yes'>    </span>CAST(ROUND(((SUM(a.total_pages) -
+  SUM(a.used_pages)) * 8) / 1024.00, 2) AS NUMERIC(36, 2)) AS
+  UnusedSpaceMB<br>
+    FROM <br>
+    <span style='mso-spacerun:yes'>    </span>sys.tables t<br>
+    INNER JOIN<span style='mso-spacerun:yes'>      </span><br>
+    <span style='mso-spacerun:yes'>    </span>sys.indexes i ON t.OBJECT_ID =
+  i.object_id<br>
+    INNER JOIN <br>
+    <span style='mso-spacerun:yes'>    </span>sys.partitions p ON i.object_id =
+  p.OBJECT_ID AND i.index_id = p.index_id<br>
+    INNER JOIN <br>
+    <span style='mso-spacerun:yes'>    </span>sys.allocation_units a ON
+  p.partition_id = a.container_id<br>
+    LEFT OUTER JOIN <br>
+    <span style='mso-spacerun:yes'>    </span>sys.schemas s ON t.schema_id =
+  s.schema_id<br>
+    WHERE <br>
+    <span style='mso-spacerun:yes'>    </span>t.NAME NOT LIKE 'dt%' <br>
+    <span style='mso-spacerun:yes'>    </span>AND t.is_ms_shipped = 0<br>
+    <span style='mso-spacerun:yes'>    </span>AND i.OBJECT_ID &gt; 255 <br>
+    GROUP BY <br>
+    <span style='mso-spacerun:yes'>    </span>t.Name, s.Name, p.Rows<br>
+    --ORDER BY<span style='mso-spacerun:yes'>     </span>t.Name <br>
+    ) recset<br>
+    <br>
+    order by recset.usedspacemb desc</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>70</td>
+  <td class=xl79>Set the no count on at the procedure start to prevent sending
+  affected records</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl79>Apply normalization forms for database structure</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>&nbsp;</td>
+  <td class=xl79>Create indexes for all columns used after the where condition</td>
+ </tr>
+ <tr height=60 style='height:45.0pt'>
+  <td height=60 class=xl68 style='height:45.0pt'>&nbsp;</td>
+  <td class=xl70 width=986 style='width:740pt'>Use distributed database for the
+  solution:<br>
+    1- Vertically<br>
+    2- Horizontally</td>
+ </tr>
+ <tr height=180 style='height:135.0pt'>
+  <td height=180 class=xl68 align=right style='height:135.0pt'>71</td>
+  <td class=xl70 width=986 style='width:740pt'>use indexing for the search
+  attributes if you need:<br>
+    - to retrieve less than 15%<br>
+    -Join tables<br>
+    -Column has unique content<br>
+    -Column has wide range of values<br>
+    -Column with many nulls but search are required for the real values<br>
+    -Reduce the number of indexes for transactional tables, and increase them
+  for read only tables<br>
+    -Order the columns in the index according to its use in the search
+  criteria<br>
+    - Review the database objects [tables] to truncate logs, remove tables, and
+  merge databases</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>72</td>
+  <td rowspan=4 class=xl86 style='border-bottom:.5pt solid black;border-top:
+  none'>Tracing</td>
+  <td class=xl79>Use IIS Tracing to write in the site tracing file
+  &quot;AXD&quot; in order to determine the leak functions</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>73</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>74</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 align=right style='height:15.0pt'>75</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=200 style='height:150.0pt'>
+  <td height=200 style='height:150.0pt'></td>
+  <td class=xl78>Prefetching DNS</td>
+  <td class=xl70 width=986 style='width:740pt'>Use prefetching directives to
+  reduce the DNS lookup time as follow:<br>
+    In the head section add the following:<br>
+    <font class="font15">&lt;meta<span style='mso-spacerun:yes'> 
+  </span>http-equiv=&quot;Content-Type&quot; content=&quot;text/html;
+  charset=utf-8&quot;<span style='mso-spacerun:yes'>  </span>/&gt;</font><font
+  class="font0"><br>
+    &lt;link rel=&quot;dns-prefetch&quot;
+  href=&quot;//d1ptw4e7d9kcvs.cloudfront.net&quot;&gt;<br>
+    <br>
+    &lt;link rel=&quot;dns-prefetch&quot;
+  href=&quot;//connect.facebook.net&quot;&gt;<br>
+    <br>
+    &lt;link rel=&quot;dns-prefetch&quot; href=&quot;//www.googletagmanager.com&quot;&gt;<br>
+    <br>
+    &lt;link rel=&quot;dns-prefetch&quot;
+  href=&quot;//www.mainadv.com&quot;&gt;</font></td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 style='height:15.0pt'></td>
+  <td class=xl83>&nbsp;</td>
+  <td class=xl79>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=64 style='width:48pt'></td>
+  <td width=189 style='width:142pt'></td>
+  <td width=986 style='width:740pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>
