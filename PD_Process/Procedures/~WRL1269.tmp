@@ -17,16 +17,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <o:Author>Abeer Salah</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>Ghoniem Ghoniem</o:LastAuthor>
-  <o:Revision>63</o:Revision>
-  <o:TotalTime>10291</o:TotalTime>
+  <o:Revision>49</o:Revision>
+  <o:TotalTime>5108</o:TotalTime>
   <o:Created>2022-08-28T20:00:00Z</o:Created>
-  <o:LastSaved>2022-09-04T12:37:00Z</o:LastSaved>
+  <o:LastSaved>2022-08-30T11:10:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>841</o:Words>
-  <o:Characters>4797</o:Characters>
-  <o:Lines>39</o:Lines>
-  <o:Paragraphs>11</o:Paragraphs>
-  <o:CharactersWithSpaces>5627</o:CharactersWithSpaces>
+  <o:Words>627</o:Words>
+  <o:Characters>3574</o:Characters>
+  <o:Lines>29</o:Lines>
+  <o:Paragraphs>8</o:Paragraphs>
+  <o:CharactersWithSpaces>4193</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:CustomDocumentProperties>
@@ -51,6 +51,8 @@ href="02-PD_Software_Security_files/colorschememapping.xml">
   <w:ActiveWritingStyle Lang="FR" VendorID="64" DLLVersion="6" NLCheck="1">1</w:ActiveWritingStyle>
   <w:ActiveWritingStyle Lang="EN-US" VendorID="64" DLLVersion="4096" NLCheck="1">0</w:ActiveWritingStyle>
   <w:ActiveWritingStyle Lang="EN-GB" VendorID="64" DLLVersion="4096" NLCheck="1">0</w:ActiveWritingStyle>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:DoNotHyphenateCaps/>
@@ -262,7 +264,6 @@ href="02-PD_Software_Security_files/colorschememapping.xml">
    Name="Hyperlink"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="FollowedHyperlink"/>
-  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
   <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Document Map"/>
@@ -298,8 +299,8 @@ href="02-PD_Software_Security_files/colorschememapping.xml">
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Normal Table"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="annotation subject"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   UnhideWhenUsed="true" Name="annotation subject"/>
   <w:LsdException Locked="false" Priority="99" SemiHidden="true"
    UnhideWhenUsed="true" Name="No List"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
@@ -700,13 +701,6 @@ href="02-PD_Software_Security_files/colorschememapping.xml">
 	mso-font-pitch:variable;
 	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
 @font-face
-	{font-family:"Segoe UI";
-	panose-1:2 11 5 2 4 2 4 2 2 3;
-	mso-font-charset:0;
-	mso-generic-font-family:swiss;
-	mso-font-pitch:variable;
-	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
-@font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;
 	mso-font-charset:0;
@@ -1103,6 +1097,7 @@ p
 	mso-fareast-language:EN-GB;}
 p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
 	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-style-parent:"Comment Text";
 	mso-style-link:"Comment Subject Char";
 	mso-style-next:"Comment Text";
@@ -1371,6 +1366,7 @@ span.TitleChar
 span.CommentSubjectChar
 	{mso-style-name:"Comment Subject Char";
 	mso-style-noshow:yes;
+	mso-style-priority:99;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
 	mso-style-parent:"Comment Text Char";
@@ -2031,6 +2027,9 @@ span.StepNumber
 span.apple-converted-space
 	{mso-style-name:apple-converted-space;
 	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -2483,35 +2482,6 @@ break-word;text-justify-trim:punctuation'>
 
 <div class=WordSection1>
 
-<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
-
-<p class=MsoNormal style='mso-outline-level:2;border:none;mso-border-bottom-alt:
-solid windowtext .5pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><a
-name="_Toc150625177"><b><span style='font-size:16.0pt;color:black'>01-Security Testing
-Preparation </span></b></a><span style='mso-bookmark:_Toc150625177'><b><span
-style='font-size:16.0pt'>Procedure</span></b></span><o:p></o:p></p>
-
-</div>
-
-<p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:3.0pt;
-margin-left:0in'><b>Purpose<o:p></o:p></b></p>
-
-<p class=MsoNormal style='margin-left:27.0pt;text-align:justify;mso-pagination:
-widow-orphan'><span style='font-size:11.0pt;mso-fareast-language:EN-GB'>Testing
-process is a category of V &amp; V, which takes part during the software life
-cycle. The testing process can be represented in three phases. Test preparation
-phase, test execution phase and test analysis phase. These phases are
-applicable for all types of testing (integration, system and acceptance and
-unit testing). Preparation and execution have separate procedures, while the
-analysis is a part of the releasing procedure. <o:p></o:p></span></p>
-
-<p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:3.0pt;
-margin-left:0in'><b><span style='mso-ascii-font-family:"Times New Roman";
-mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></b></p>
-
 <p class=MsoNormal style='margin-top:9.0pt;margin-right:0in;margin-bottom:3.0pt;
 margin-left:0in'><b><span style='mso-ascii-font-family:"Times New Roman";
 mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
@@ -2612,18 +2582,33 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal><span style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
-  mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-  mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:major-bidi;mso-fareast-language:EN-GB'>PD_Detailed_Design_Procedure<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
-  mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-  mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:major-bidi;mso-fareast-language:EN-GB'>PD_Integration_Test_Execution_Procedure<o:p></o:p></span></p>
-  <p class=MsoNormal><span style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
-  mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-  mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:major-bidi;mso-fareast-language:EN-GB'>PD_Implementation_Procedure<o:p></o:p></span></p>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:10.0pt;
+  mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
+  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'>PD_Detailed_Design_Procedure</span></span><span
+  style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
+  major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:10.0pt;
+  mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
+  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'>PD_Integration_Test_Execution_Procedure</span></span><span
+  style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
+  major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:10.0pt;
+  mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
+  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'>PD_Implementation_Procedure</span></span><span
+  style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
+  major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></p>
   </td>
   <td width=233 valign=top style='width:174.6pt;border-top:none;border-left:
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -2907,7 +2892,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3053,7 +3038,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3150,7 +3135,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Use modern XML parsers like AntiXssEncoder<o:p></o:p></span></span></span></p>
+  color:black'>Use modern XML parsers like <span class=SpellE>AntiXssEncoder</span><o:p></o:p></span></span></span></p>
   <span style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'></span></span>
   <p class=MsoNormal style='tab-stops:72.75pt'><span style='mso-bookmark:_Toc135469741'><span
   style='mso-bookmark:_Toc135554428'><b><span style='font-size:10.0pt;
@@ -3169,7 +3154,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3270,10 +3255,15 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
        mso-bidi-theme-font:major-bidi'>Tokens<o:p></o:p></span></span></span></li>
    <li class=MsoNormal style='color:black;mso-list:l1 level1 lfo6'><span
        style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
+       class=SpellE><span style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
+       mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
+       mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
+       mso-bidi-theme-font:major-bidi'>WebApi</span></span></span></span><span
+       style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
        style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
        mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
        mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-       mso-bidi-theme-font:major-bidi'>WebApi calls<o:p></o:p></span></span></span></li>
+       mso-bidi-theme-font:major-bidi'> calls<o:p></o:p></span></span></span></li>
    <li class=MsoNormal style='color:black;mso-list:l1 level1 lfo6'><span
        style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
        style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
@@ -3286,19 +3276,6 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
        mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
        mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
        mso-bidi-theme-font:major-bidi'>Encrypt authentication data<o:p></o:p></span></span></span></li>
-   <li class=MsoNormal style='color:black;mso-list:l1 level1 lfo6'><span
-       style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
-       style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
-       mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-       mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-       mso-bidi-theme-font:major-bidi'>Remove/Disable un-used protocols<o:p></o:p></span></span></span></li>
-   <li class=MsoNormal style='color:black;mso-list:l1 level1 lfo6'><span
-       style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
-       style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
-       mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-       mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-       mso-bidi-theme-font:major-bidi'>Remove connection headers that include
-       OS/Protocol/Server type/Ver<o:p></o:p></span></span></span></li>
   </ul>
   </td>
   <span style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'></span></span>
@@ -3311,7 +3288,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3431,60 +3408,6 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
   color:black'>Apply least privileges<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Request validation tags <o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Remove guest accounts<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Remove un-used accounts<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Remove IUSR account<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Rename administrator accounts<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Add process for disabling in-active employees accounts<o:p></o:p></span></span></span></p>
   <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
   style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
@@ -3493,8 +3416,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Change access rights for all servers/clouds for in-active
-  employees <o:p></o:p></span></span></span></p>
+  color:black'>Request validation tags <o:p></o:p></span></span></span></p>
   </td>
   <span style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'></span></span>
   <td width=77 valign=top style='width:58.1pt;border-top:none;border-left:none;
@@ -3506,7 +3428,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3656,7 +3578,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3772,7 +3694,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3877,7 +3799,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Set retention plan for data existence<o:p></o:p></span></span></span></p>
+  color:black'>Set retention plan for data <span class=SpellE>existance</span><o:p></o:p></span></span></span></p>
   <span style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'></span></span>
   <p class=MsoNormal><span style='mso-bookmark:_Toc135469741'><span
   style='mso-bookmark:_Toc135554428'><span style='font-size:10.0pt;mso-ascii-font-family:
@@ -3895,7 +3817,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -3983,7 +3905,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
   color:black'>Architect for Architect for Code security:<o:p></o:p></span></b></span></span></p>
-  <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
+  <p class=MsoListParagraph style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
   style='font-size:10.0pt;color:black;mso-bidi-font-weight:bold'><span
   style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -3992,34 +3914,6 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
   color:black'>Use readymade obfuscation tools to encrypt FE code<b><o:p></o:p></b></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Use interfaces, member functions access directives (public,
-  private)<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Use internal for all classes to prevent using from third parties<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Enable <b>CAS</b> (Code access security) for components <o:p></o:p></span></span></span></p>
   <p class=MsoNormal style='tab-stops:272.4pt'><span style='mso-bookmark:_Toc135469741'><span
   style='mso-bookmark:_Toc135554428'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span></p>
   </td>
@@ -4033,7 +3927,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -4150,7 +4044,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -4271,7 +4165,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -4380,15 +4274,6 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
   color:black'>Use strong exception handling to prevent exposing valuable data
   for attackers<o:p></o:p></span></span></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span></span><![endif]><span dir=LTR></span><span style='font-size:
-  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
-  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
-  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Enable caching at different levels to prevent denial of services<o:p></o:p></span></span></span></p>
   <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l3 level1 lfo5'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
   style='font-size:10.0pt;color:black'><span style='mso-list:Ignore'>-<span
@@ -4397,7 +4282,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
-  color:black'>Enable WAF (Web application firewall) services on the cloud<o:p></o:p></span></span></span></p>
+  color:black'>Enable caching at different levels to prevent denial of services<o:p></o:p></span></span></span></p>
   </td>
   <span style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'></span></span>
   <td width=77 valign=top style='width:58.1pt;border-top:none;border-left:none;
@@ -4409,7 +4294,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -4517,69 +4402,6 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
   color:black'>Use parameterized queries and procedures to deal with data<b><o:p></o:p></b></span></span></span></p>
-  <p class=MsoBodyText3 style='margin-left:.5in;text-indent:-.25in;mso-list:
-  l3 level1 lfo5;mso-layout-grid-align:none;text-autospace:none'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><![endif]><span dir=LTR></span>Create different users with
-  different credentials according to responsibility<o:p></o:p></span></span></p>
-  <p class=MsoBodyText3 style='margin-left:.5in;text-indent:-.25in;mso-list:
-  l3 level1 lfo5;mso-layout-grid-align:none;text-autospace:none'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><![endif]><span dir=LTR></span>Use least privileges to prevent
-  attacks to your assets<o:p></o:p></span></span></p>
-  <p class=MsoBodyText3 style='margin-left:.5in;text-indent:-.25in;mso-list:
-  l3 level1 lfo5;mso-layout-grid-align:none;text-autospace:none'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='mso-list:Ignore'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><![endif]><span dir=LTR></span>Create different users with the
-  following key roles:<o:p></o:p></span></span></p>
-  <p class=MsoBodyText3 style='margin-left:1.0in;text-indent:-.25in;mso-list:
-  l3 level2 lfo5;mso-layout-grid-align:none;text-autospace:none'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  class=apple-converted-space><span style='font-family:"Courier New";
-  mso-fareast-font-family:"Courier New"'><span style='mso-list:Ignore'>o<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span></span><![endif]><span
-  dir=LTR></span><strong><span style='mso-bidi-font-size:10.0pt;font-family:
-  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-  minor-fareast;color:black'>db_datareader</span></strong></span></span><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
-  class=apple-converted-space><span style='mso-bidi-font-size:10.0pt;
-  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:major-fareast;color:black'>&nbsp;: For reading</span><o:p></o:p></span></span></span></p>
-  <p class=MsoBodyText3 style='margin-left:1.0in;text-indent:-.25in;mso-list:
-  l3 level2 lfo5;mso-layout-grid-align:none;text-autospace:none'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><strong><span
-  style='font-family:"Courier New";mso-fareast-font-family:"Courier New";
-  font-weight:normal'><span style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
-  </span></span></span></strong><![endif]><span dir=LTR></span><strong><span
-  style='mso-bidi-font-size:10.0pt;font-family:"Segoe UI",sans-serif;
-  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
-  color:black'>db_datawriter : </span></strong></span></span><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
-  class=apple-converted-space><span style='mso-bidi-font-size:10.0pt;
-  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:major-fareast;color:black'>For Writing</span></span><strong><span
-  style='font-weight:normal'><o:p></o:p></span></strong></span></span></p>
-  <p class=MsoBodyText3 style='margin-left:1.0in;text-indent:-.25in;mso-list:
-  l3 level2 lfo5;mso-layout-grid-align:none;text-autospace:none'><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><![if !supportLists]><span
-  style='mso-bidi-font-size:10.0pt;font-family:"Courier New";mso-fareast-font-family:
-  "Courier New";color:black;mso-bidi-font-weight:bold'><span style='mso-list:
-  Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
-  dir=LTR></span><strong><span style='mso-bidi-font-size:10.0pt;font-family:
-  "Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
-  minor-fareast;color:black'>sysadmin</span></strong></span></span><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
-  class=apple-converted-space><span style='mso-bidi-font-size:10.0pt;
-  font-family:"Segoe UI",sans-serif;mso-fareast-font-family:"Times New Roman";
-  mso-fareast-theme-font:major-fareast;color:black'>&nbsp;: For Upgrades</span></span></span></span><span
-  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><b><span
-  style='mso-bidi-font-size:10.0pt;mso-ascii-font-family:"Times New Roman";
-  mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-  mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:major-bidi;color:black'><o:p></o:p></span></b></span></span></p>
   </td>
   <span style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'></span></span>
   <td width=77 valign=top style='width:58.1pt;border-top:none;border-left:none;
@@ -4591,7 +4413,7 @@ mso-bidi-theme-font:major-bidi'>Inputs<o:p></o:p></span></b></p>
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
   major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
   mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi'>-
-  Security Archutect<o:p></o:p></span></span></span></p>
+  Security <span class=SpellE>Archutect</span><o:p></o:p></span></span></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
   style='font-size:8.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
@@ -4774,20 +4596,38 @@ mso-bidi-theme-font:major-bidi'>Outputs<o:p></o:p></span></b></span></span></p>
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal><span style='mso-bookmark:_Toc135469741'><span
-  style='mso-bookmark:_Toc135554428'><span style='font-size:10.0pt;mso-ascii-font-family:
-  "Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-  mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:major-bidi;mso-fareast-language:EN-GB'>PD_Detailed_Design_Procedure<o:p></o:p></span></span></span></p>
+  style='mso-bookmark:_Toc135554428'><span class=SpellE><span style='font-size:
+  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
+  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'>PD_Detailed_Design_Procedure</span></span></span></span><span
+  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
+  style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
+  major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></span></span></p>
   <p class=MsoNormal><span style='mso-bookmark:_Toc135469741'><span
-  style='mso-bookmark:_Toc135554428'><span style='font-size:10.0pt;mso-ascii-font-family:
-  "Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-  mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:major-bidi;mso-fareast-language:EN-GB'>PD_Integration_Test_Execution_Procedure<o:p></o:p></span></span></span></p>
+  style='mso-bookmark:_Toc135554428'><span class=SpellE><span style='font-size:
+  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
+  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'>PD_Integration_Test_Execution_Procedure</span></span></span></span><span
+  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
+  style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
+  major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></span></span></p>
   <p class=MsoNormal><span style='mso-bookmark:_Toc135469741'><span
-  style='mso-bookmark:_Toc135554428'><span style='font-size:10.0pt;mso-ascii-font-family:
-  "Times New Roman";mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
-  mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-  mso-bidi-theme-font:major-bidi;mso-fareast-language:EN-GB'>PD_Implementation_Procedure<o:p></o:p></span></span></span></p>
+  style='mso-bookmark:_Toc135554428'><span class=SpellE><span style='font-size:
+  10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:major-bidi;
+  mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'>PD_Implementation_Procedure</span></span></span></span><span
+  style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'><span
+  style='font-size:10.0pt;mso-ascii-font-family:"Times New Roman";mso-ascii-theme-font:
+  major-bidi;mso-hansi-font-family:"Times New Roman";mso-hansi-theme-font:major-bidi;
+  mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:major-bidi;
+  mso-fareast-language:EN-GB'><o:p></o:p></span></span></span></p>
   </td>
   <span style='mso-bookmark:_Toc135469741'><span style='mso-bookmark:_Toc135554428'></span></span>
   <td width=233 valign=top style='width:174.6pt;border-top:none;border-left:
@@ -4936,43 +4776,7 @@ mso-fareast-language:EN-GB'><o:p>&nbsp;</o:p></span></b></p>
 <p class=MsoToc3><span style='mso-ascii-font-family:"Times New Roman";
 mso-ascii-theme-font:major-bidi;mso-hansi-font-family:"Times New Roman";
 mso-hansi-theme-font:major-bidi;mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:major-bidi'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
-
-<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
-
-<p class=MsoNormal style='mso-outline-level:2;border:none;mso-border-bottom-alt:
-solid windowtext .5pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><b><span
-style='font-size:16.0pt;color:black'>02-Security Testing Planning </span></b><b><span
-style='font-size:16.0pt'>Procedure</span></b><o:p></o:p></p>
-
-</div>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
-
-<p class=MsoNormal style='mso-outline-level:2;border:none;mso-border-bottom-alt:
-solid windowtext .5pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><b><span
-style='font-size:16.0pt;color:black'>03-Security Testing Execution </span></b><b><span
-style='font-size:16.0pt'>Procedure</span></b><o:p></o:p></p>
-
-</div>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
-
-<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.0pt;
-mso-border-bottom-alt:solid windowtext .5pt;padding:0in 0in 1.0pt 0in'>
-
-<p class=MsoNormal style='mso-outline-level:2;border:none;mso-border-bottom-alt:
-solid windowtext .5pt;padding:0in;mso-padding-alt:0in 0in 1.0pt 0in'><b><span
-style='font-size:16.0pt;color:black'>04-Security Testing Follow-up </span></b><b><span
-style='font-size:16.0pt'>Procedure</span></b><o:p></o:p></p>
-
-</div>
-
-<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+mso-bidi-theme-font:major-bidi'><o:p>&nbsp;</o:p></span></p>
 
 </div>
 
